@@ -1,0 +1,10 @@
+pipeline{
+    agent any
+    stages{
+        stage("Java Home"){
+            steps{
+                echo "welcome to peipline jobs"
+            }
+        }
+    }
+}
